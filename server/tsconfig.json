@@ -53,6 +53,6 @@
 
     "strict": true,
     "esModuleInterop": true,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": true
   }
 }
