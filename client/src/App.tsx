@@ -1,9 +1,14 @@
- function App() {
-   
+import QueryProvider from './app/providers/query-provider'
+
+function App() {
   return (
-    <>
-       <h1 className="text-3xl font-semibold underline">Hello, cali</h1>
-    </>
+    <QueryProvider>
+      <div className="p-10">
+        <h1 className="text-3xl font-bold">
+          AI Construction Daily Report System
+        </h1>
+      </div>
+    </QueryProvider>
   )
 }
 
